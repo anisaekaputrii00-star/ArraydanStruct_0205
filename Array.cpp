@@ -9,18 +9,24 @@ int main() {
     // deklarasi tanpa inisialisasi
     int datamu[5];
 
-    // cara akses (membaca atau mengambil isi array)
-    cout << "Isi data kedua : " << dataku[1] << endl;
+    // tampilkan data  (membaca data array)
+    cout << " data pada index 1 = : " << aku[1] << endl;
 
-    // mengisi array
-    dataku[1] = 200;
-    cout << "Isi data kedua setelah dirubah : " << dataku[1] << endl;
+    // ganti index ke 1 (menulis data array)
+    aku[1] = 200;
+    count << endl;
+    cout << " data pada index 1 = : " << aku[1] << endl;
 
 // mengisi data dengan perintah satu persatu
-    cout << "Isikan data pertama : ";
+    cout << "data index 0 = ";
     cin >> datamu[0];
-    cout << "Isikan data kedua : ";
+    cout << "data index 1 = ";
     cin >> datamu[1];
-
-    return 0;
-}
+    count <<"data index 2 = ";
+    cin >> datamu[2];
+    count <<"data index 3 = ";
+    cin >> datamu[3];
+    count << "data index 4 = ";
+    cin  >> datamu[4];
+    count << endl;
+    //menampilkan dat satu per satu
